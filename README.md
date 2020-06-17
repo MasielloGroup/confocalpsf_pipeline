@@ -1,4 +1,4 @@
-# confocalpsf_pipeline
+## confocalpsf_pipeline
 
 This is set up to run on Mox. Here are the steps to take to create a confocal PSF:
 
