@@ -1,8 +1,11 @@
-# confocalpsf_pipeline
-## This set of files will allow you to create a confocal photothermal image
+# Confocal Photothermal Image Pipeline
+## This set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies
 
+### 1. Create a shape file that contains a discretized version of the nanoparticle assembly. 
 
-1. Simply adjust "shape.f90" to contain the shape that you would like to run. Make sure you do not change the variables "rastery" and "rasterz" and that those variables are added onto your y and z directions. 
+* A sample fortran shapemaker file is included, called "shape.f90".
+
+1. Adjust "shape.f90" to contain the shape that you would like to run. Make sure you do not change the variables "rastery" and "rasterz" and that those variables are added onto your y and z directions. 
 
 2. Update the values in "parameters.input" to model the systemm of interest. At a minimum, make sure you adjust:
     a. line 5 to the wavlength (in microns) of your desired pump / heating beam.
