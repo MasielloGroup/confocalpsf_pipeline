@@ -1,5 +1,5 @@
-## confocalpsf_pipeline
-# This set of files will allow you to create a confocal photothermal image
+# confocalpsf_pipeline
+## This set of files will allow you to create a confocal photothermal image
 
 
 1. Simply adjust "shape.f90" to contain the shape that you would like to run. Make sure you do not change the variables "rastery" and "rasterz" and that those variables are added onto your y and z directions. 
